@@ -43,7 +43,7 @@ public abstract class Employee implements Employable {
             return true;
         }
         
-        if (obj == null || getClass() != obj.getClass()) {
+        if (obj == null || !(obj instanceof Employee)) {
             return false;
         }
 

@@ -26,7 +26,7 @@ public class Main {
         System.out.println("\nEquality checks:");
         for (Employee employee : employees) {
             boolean isEqual = worker1.equals(employee);
-            System.out.println("Worker1 equals " + employee.getName() + ": " + isEqual);
+            System.out.println("Worker1's ID equals " + employee.getName() + "'s ID: " + isEqual);
         }
     }
 }
